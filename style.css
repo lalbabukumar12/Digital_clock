@@ -1,0 +1,30 @@
+body{
+      height:100vh;
+      width:100vw;
+     background-image: url(game.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      margin:0;
+    
+}
+#clock-conatiner{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+
+}
+#clock{
+      font-size:6.5rem;
+      font-weight: bold;
+      color:#61dafb;
+      font-family:monospace;
+      text-align: center;
+      color: white;
+      backdrop-filter: blur(4px);
+      background-color: hsla(hue, saturation, lightness, alpha);
+      width:100%;
+      
+}
